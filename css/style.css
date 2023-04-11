@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+}
+.topbar{
+    background-color: black; 
+    height: 50px; 
+    color: white;
+}
+.topbartext{
+    margin-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 12pt;
+    font-family: Calibri;
+    font-style: normal;
+    text-align: left;
+}
+.topbarrow:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.topbarcol{
+    float: left;
+    width: 50%;
+}
+@media screen and (max-width: 600px) {
+    #topbar_content {
+        visibility: hidden;
+    }
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.col2{
+    float: left;
+    width: 50%;
+}
+.col3{
+    float: left;
+    width: 33.33%;
+}
+.col4{
+    float: left;
+    width: 25%;
+}
+.col4{
+    float: left;
+    width: 20%;
+}
+.aa{
+    background-color: black;
+}
+.topmenutext{
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 12pt;
+    font-family: Calibri;
+    font-style: normal;
+    text-align: left;
+}
